@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .background {}
+
+    .width {
+        height: 200px;
+        /* border: 2px dotted; */
+    }
+
+    .logo {
+        height: 12%;
+        width: 12%;
+        border-radius: 14px;
+        position: inline-block;
+        position: absolute;
+        top: 10px;
+    }
+
+    .front {
+
+        /* border: 2px solid; */
+        display: inline-flex;
+
+        gap: 50px;
+        position: relative;
+        
+        left: 22%;
+        height: 50px;
+        align-items: center;
+        top: 15px;
+        /* background-color: rgb(77, 117, 79); */
+        flex-shrink: 0;
+        min-width: 100px;
+        flex-grow: 1;
+
+    }
+
+    .button {
+        position: relative;
+
+
+    }
+
+    .input {
+        text-align: center;
+        color: black;
+    }
+
+    .link {
+        color: black;
+        font-weight: bold;
+    }
+
+    .left50 {
+        width: 50%;
+        margin: 0;
+        /* font-size: 20px; */
+        /* height: 20px; */
+        /* background-color: antiquewhite; */
+        text-align: justify;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: serif;
+        font-weight: bolder;
+
+    }
+
+    .orange {
+        color: orangered;
+        text-shadow: 20px;
+    }
+
+    .leftp {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .right {
+        width: 35%;
+        background-color: black;
+        border-radius: 9px;
+        border: 2px dotted;
+        position: relative;
+        right: 10%;
+        float: right;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        color: white;
+        padding: 0%;
+    }
+
+    .login {
+        background-color: rgb(229, 217, 213);
+        color: orangered;
+        display: block;
+        text-align: center;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        font-size: 25px;
+        /* padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    padding-top: 3px; */
+        border-radius: 10px;
+
+
+    }
+
+    .line {
+        width: 80%;
+        padding: 0;
+
+
+    }
+
+    .mail {
+        position: relative;
+        left: 10%;
+        top: 12px;
+        padding: 0;
+    }
+
+    .apps {
+        /* display: flex; */
+        gap: 12px;
+        height: 10px;
+    }
+</style>
+
+<body>
+
+    <div class="width">
+        <img class="logo" src="./logo.jpg" alt="loading">
+
+        <div class="front">
+            <a class="link" href="https://home.com">Home</a>
+            <a class="link" href="https://home.com">About</a>
+            <a class="link" href="https://home.com">Service</a>
+            <a class="link" href="https://home.com"> design</a>
+            <a class="link" href="https://home.com">ContactUs</a>
+            <input class="input" placeholder="Type to search" />
+            <button class="input">submit</button>
+        </div>
+
+
+
+    </div>
+    
+    <div class="left50">
+        <h2>Web Design & <br><span class="orange">Development</span><br> Course</h2>
+        <p>Web Design is a Specilization of the design System. They Aise use HTML,<br>css. wisiwyg editing
+            softwere,markup validator etc...!<br> To create design elements</p>
+    </div>
+
+    <div class="right">
+        <p class="login">Login Here</p>
+        <p class="mail">Enter Email Here</p>
+        <hr class="line" color="orangered">
+        <p class="mail">Enter password Here </p>
+        <hr class="line" color="orangered">
+        <button class="login">Login</button>
+        <p class="leftp">Don't have an account? </p>
+        <p class="leftp"><a href="https://123.com">Sign Up </a> here</p>
+        <p class="leftp">Log in with</p>
+    </div>
+
+</body>
+
+</body>
+
+</html>
